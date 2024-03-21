@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/secondary_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Open Sans,sans-serif!important;
+    position: relative;
+    background-attachment: fixed;
+    z-index: -2;
+    color: #fff!important;
+}
+.fixing-icovs-position{
+    position: relative;
+    padding-bottom: 100px;
+}
+.add-icon-move, .remove-icon-move{
+    position: absolute;
+    margin-left: 98%;
+    margin-top: 10px;
+}
+.remove-icon-move{
+    margin-left: 90%;
+}
+.body-overlay{
+    background-color:rgba(29,29,29,.9);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.navbar-container{
+    height: 56px;
+    background-color: black;
+}
+.logo-container{
+    height: 96px;
+    background-color: rgb(0, 0, 0);
+}
+.cv-page-title{
+    background-color: black;
+    height: 61.38px;
+ margin-bottom: 3rem!important;;
+}
+.cv-page-supporting-text{
+    background-color:rgb(0, 0, 0);
+ height: 104.25px; 
+ margin-bottom: 1.5rem!important;
+ margin-top: 3rem!important;
+}
+.stepper-section{
+    background-color: black;
+    height: 130px;
+}
+.CV-section{
+    width: 90%!important;
+    margin: auto;
+}
+.create-cv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
+    background-color:rgba(0, 0, 0,0.4);
+    padding: 1.5rem;
+    width: 100%!important;
+}
+input{
+background-color: #ffffff1e!important;
+border:0 !important; 
+ color: #fffffff1!important;
+padding: 10px 15px!important;
+outline: none;
+border-radius: 2PX!important;
+display: block;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+width: 100%;
+margin-bottom: 10px!important;
+}
+
+.form-control{
+    margin: 0!important;
+}
+.form-control:focus{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #bf9b30!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #bf9b30!important;
+}
+.text-area:focus{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important; 
+    border: 1px solid  #bf9b30 !important ;
+}
+label{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.upload-personal-photo{
+    width:600px ;
+    height:  341.19px  ;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    background-color: rgb(0, 0, 0);
+}
+.cv-preview-section{
+    width: 100%;
+    height: 947.5px;
+    background-color: rgb(0, 0, 0);
+}
+.cv-form-ct{
+    height: fit-content!important;
+}
+#backBtn, #continueBtn, #downloadBtn, #backBtn-main-info{
+    color: #fff!important;
+    min-width: 160px;
+    background-color: #9d9d9d!important;
+
+}
+#continueBtn, #downloadBtn{
+   background-color: #bf9b30!important; 
+}
+#backBtn-main-info{
+    background-color: #9d9d9d!important;
+
+    color: #e1e1e1!important;
+
+}
+.footer-section{
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px 0;
+    height: 416px;
+    width: 100%;
+}
+#backBtn:hover, #continueBtn:hover{
+    background-color: #e7be3e!important;
+}
+#backBtn:active, #continueBtn:active{
+    border-color:#bf9b30!important ;
+}
+i {
+    display: block;
+    font-size: large;
+    line-height: 20px;
+    font-weight: lighter;
+}
+i:hover{
+    transform: scale(1.1,1.1);
+    
+}
+
+.links-input-remove{
+padding-top: 7%;
+
+}
+.links-ct{
+    height: fit-content;
+
+}
+
+.input-add{
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.links-input-ct{
+height: fit-content;
+}
+.links-input-add{
+height: inherit;    display: flex;
+    align-items: flex-end;
+
+
+}
+.add-ct{
+    height: fit-content;
+}
+.remove-ct{
+    display: flex;
+    align-items: center;
+}
+    .cv-summary-about{
+background-color: #ffffff1e!important;
+border: 0!important;   
+ color: #fffffff1!important;
+
+    }
+
+/* ///////////////////////////////skills/////////////////////////////// */
+.skills-input-div, .hobbiess-input-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skills-input-formcontrol, .hobbies-input-formcontrol{
+    width: 90%;
+
+}
+.skills-input-div, .hobbies-input-div{
+    margin-top:-8px!important; 
+     padding: 10px 0;
+}
+
+i{
+    display: block;
+}
+.icons-div{
+    margin-left: 85%;
+    font-size: x-large;
+}
+.icons-div i:hover{
+    transform: scale(1.3,1.1);
+    transition: 0.1s;
+
+}
+
+.remove-icon-to-margin-links{
+    padding-top: 14%!important;
+}
+
+   /* ///////////////////experience///////////////////////// */
+   .logo-and-des{
+    height: fit-content;
+   }
+   .experience-org-logo{
+    height: 157px;
+    width: 100%;
+    border:2px dashed #bf9b30;
+    
+   }
+
+   .cv-form-rounded{
+    border:2px dashed #bf9b30;
+    
+    padding: 1rem!important;
+   }
+   @media (max-width: 992px){
+    .cv-form-rounded{
+        border-width: 0px!important;
+        padding: 0!important;
+    }
+    .company-logo .organization-logo{
+        order: 7!important;
+        margin: auto!important;
+    }
+    
+    .add-icon-move, .remove-icon-move{
+        position: absolute;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .remove-icon-move{
+        margin-left: 90%;
+    }
+   .CV-section{
+    margin: 0!important;
+    width: 100vw!important;
+   }
+   
+
+.links-btn-ct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-backBtn,.links-downloadBtn{
+    margin: 10px 50x;
+}
+.links-input-add{
+margin-left: 89%;
+margin-top: -160px!important;
+}
+.remove-icon-to-margin, .remove-icon-to-margin-links{
+    margin-left: 83%!important;
+}
+
+.remove-icon-to-margin-links{
+    padding-top: 5%!important;
+}
+.add-icon-to-margin{
+margin-bottom: 20px;
+}
+
+   .links-input-add{
+    margin-top: -10px!important;
+   }
+}
